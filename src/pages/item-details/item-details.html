@@ -20,5 +20,8 @@
             <ion-label>Rename Item:</ion-label>
             <ion-input type="text" placeholder="{{selectedItem.title}}" [(ngModel)]="selectedItem.title"></ion-input>
         </ion-item>
+        <ion-item class="right">
+            <button ion-button (click)="doAlert()">Submit</button>
+        </ion-item>
     </ion-card>
 </ion-content>
